@@ -1,0 +1,68 @@
+/* landing page for 1920x1080 resolution start */
+.landing-illustration-low-res {
+  display: none;
+}
+.Redberry-logo {
+  position: absolute;
+  top: 79px;
+  left: 904px;
+}
+.landing-illustration-high-res {
+  position: absolute;
+  width: 781px;
+  height: 482px;
+  left: 589px;
+  top: 182px;
+}
+.btn-container {
+  position: absolute;
+  top: 787px;
+  left: 766px;
+  display: flex;
+  flex-direction: column;
+}
+.btn {
+  width: 387px;
+  height: 60px;
+  margin-bottom: 26px;
+  background: #62a1eb;
+  border-radius: 8px;
+  border: transparent;
+  color: #ffffff;
+  font-size: 20px;
+  line-height: 60px;
+  text-align: center;
+  justify-content: center;
+  text-decoration: none;
+  transition: 0.5s;
+}
+.btn:hover {
+  background-color: #317ad0;
+  transition: 0.5s;
+}
+/* landing page for 1920x1080 resolution end */
+
+/* Landing Page for Mobile start */
+@media (max-width: 391px) {
+  .landing-illustration-high-res {
+    display: none;
+  }
+  .landing-illustration-low-res {
+    display: inline;
+    position: absolute;
+    top: 202px;
+    left: calc(50% - 268.58px / 2);
+  }
+  .Redberry-logo {
+    top: 67px;
+    left: 139px;
+  }
+  .btn-container {
+    top: 673px;
+    left: 16px;
+  }
+  .btn {
+    width: 358px;
+  }
+}
+/* Landing Page for Mobile end */

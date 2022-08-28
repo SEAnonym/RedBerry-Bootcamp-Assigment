@@ -1,0 +1,16 @@
+input {
+  font-size: large;
+  border: 1.8px solid;
+  border-radius: 8px;
+  border-color: transparent;
+  background-color: #f3f4ff;
+}
+/* input:focus {
+  border-color: #6499ff;
+  background-color: #f3f4ff;
+  border-radius: 8px;
+} */
+#firstname {
+  width: 407px;
+  height: 60px;
+}

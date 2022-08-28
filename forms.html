@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="/styles/reset.css" />
+    <link rel="stylesheet" href="/styles/forms.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RedBerry</title>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="/IMG/cropped-favicon-32x32.png"
+    />
+  </head>
+  <body id="forms-page">
+    <a href=""><img src="/IMG/Group 4.svg" alt="" class="ellipse" /></a>
+
+    <a class="co-worker-info" href="">თანამშრომლის ინფორმაცია</a>
+
+    <a class="laptop-specs" href="">ლეპტოპის მახასიათებლები</a>
+
+    <form>
+      <div class="name-surname">
+        <div>
+          <label for="firstname">სახელი</label>
+          <input id="firstname" type="text" placeholder="გრიშა" />
+          <p class="name-hint">მინიმუმ 2 სიმბოლო, ქართული ასოები</p>
+        </div>
+
+        <div>
+          <label for="lastname">გვარი</label>
+          <input id="lastname" type="text" placeholder="ბაგრატიონი" />
+          <p class="surname-hint">მინიმუმ 2 სიმბოლო, ქართული ასოები</p>
+        </div>
+      </div>
+
+      <select name="team-dropdown" id="team">
+        <option class="team-dropdown-option" value="team" selected disabled>
+          თიმი
+        </option>
+        <option class="team-dropdown-option" value="Developement">
+          Developement
+        </option>
+        <option class="team-dropdown-option" value="HR">HR</option>
+        <option class="team-dropdown-option" value="Sales">Sales</option>
+        <option class="team-dropdown-option" value="Design">Design</option>
+        <option class="team-dropdown-option" value="Marketing">
+          Marketing
+        </option>
+      </select>
+
+      <select name="position-dropdown" id="position">
+        <option class="position-dropdown-option" value="Developement">
+          Developement
+        </option>
+        <option class="position-dropdown-option" value="HR">HR</option>
+        <option class="position-dropdown-option" value="Sales">Sales</option>
+        <option class="position-dropdown-option" value="Design">Design</option>
+        <option class="position-dropdown-option" value="Marketing">
+          Marketing
+        </option>
+      </select>
+
+      <label class="email-label" for="email">მეილი</label>
+      <input id="email" type="email" placeholder="grish666@redberry.ge" />
+      <p class="email-hint">უნდა მთავრდებოდეს @redberry.ge-ით</p>
+
+      <label for="phone-number" class="phone-number-label"
+        >ტელეფონის ნომერი</label
+      >
+      <input id="phone-number" type="tel" placeholder="+995 598 00 07 01" />
+      <p class="phone-number-hint">
+        უნდა აკმაყოფილებდეს ქართული მობ-ნომრის ფორმატს
+      </p>
+    </form>
+    <a href="" class="next-button">შემდეგი</a>
+    <img src="/IMG/LOGO-10 2.svg" alt="" class="forms-logo" />
+  </body>
+</html>

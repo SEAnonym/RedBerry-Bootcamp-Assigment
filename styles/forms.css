@@ -1,0 +1,279 @@
+body {
+  background-color: #f6f6f6;
+}
+form {
+  position: absolute;
+  width: 1226px;
+  height: 973px;
+  left: 347px;
+  top: 157px;
+  background-color: #ffffff;
+  border-radius: 18px;
+}
+input {
+  font-size: large;
+  border: 1.8px solid #8ac0e2;
+  border-radius: 8px;
+}
+input:focus {
+  border-color: #6499ff;
+  background-color: #f3f4ff;
+  border-radius: 8px;
+}
+option {
+  background: #e7f0f8;
+}
+/* Forms page start */
+.ellipse {
+  position: absolute;
+  width: 53px;
+  height: 53px;
+  left: 70px;
+  top: 53px;
+}
+.co-worker-info {
+  position: absolute;
+  height: 24px;
+  left: 671px;
+  top: 91px;
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-decoration: underline;
+  text-decoration-color: #000000;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 15px;
+  color: #232323;
+}
+.laptop-specs {
+  position: absolute;
+  height: 24px;
+  left: 960px;
+  top: 91px;
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-decoration: none;
+  color: #232323;
+}
+.name-surname {
+  margin: 88px 150px 44px 150px;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+}
+#firstname {
+  width: 407px;
+  height: 60px;
+}
+#lastname {
+  width: 407px;
+  height: 60px;
+}
+#team {
+  width: 878px;
+  height: 60px;
+  background: #ebebeb;
+  border-radius: 8px;
+  position: absolute;
+  left: calc(50% - 926px / 2);
+  top: 258px;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+}
+#position {
+  width: 878px;
+  height: 60px;
+  background: #ebebeb;
+  border-radius: 8px;
+  position: absolute;
+  left: calc(50% - 926px / 2);
+  top: 371px;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+}
+.email-label {
+  position: absolute;
+  bottom: 497px;
+  left: 153px;
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+}
+#email {
+  width: 878px;
+  height: 60px;
+  position: absolute;
+  left: calc(50% - 926px / 2);
+  top: 482px;
+}
+.phone-number-label {
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+  position: absolute;
+  bottom: 332px;
+  left: 148px;
+}
+#phone-number {
+  width: 878px;
+  height: 60px;
+  position: absolute;
+  left: calc(50% - 926px / 2);
+  top: 648px;
+}
+#name::-webkit-input-placeholder {
+  position: absolute;
+  height: 21px;
+  left: 16px;
+  right: 16px;
+  top: calc(50% - 21px / 2 - 0.5px);
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: rgba(0, 0, 0, 0.6);
+}
+#surname::-webkit-input-placeholder {
+  position: absolute;
+  height: 21px;
+  left: 16px;
+  right: 16px;
+  top: calc(50% - 21px / 2 - 0.5px);
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+#team::-webkit-input-placeholder {
+  position: absolute;
+  height: 21px;
+  left: 16px;
+  right: 83px;
+  top: calc(50% - 21px / 2 - 0.5px);
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.04em;
+  color: #000000;
+}
+#position::-webkit-input-placeholder {
+  position: absolute;
+  height: 21px;
+  left: 16px;
+  right: 83px;
+  top: calc(50% - 21px / 2 - 0.5px);
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.04em;
+  color: #000000;
+}
+#email::-webkit-input-placeholder {
+  position: absolute;
+  height: 21px;
+  left: 16px;
+  right: 16px;
+  top: calc(50% - 21px / 2 - 0.5px);
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: rgba(0, 0, 0, 0.6);
+}
+#phone-number::-webkit-input-placeholder {
+  position: absolute;
+  height: 21px;
+  left: 16px;
+  right: 16px;
+  top: calc(50% - 21px / 2 - 0.5px);
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: rgba(0, 0, 0, 0.6);
+}
+.email-hint {
+  position: absolute;
+  top: 550px;
+  left: 150px;
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 21px;
+  color: #2e2e2e;
+}
+.phone-number-hint {
+  position: absolute;
+  top: 718px;
+  left: 150px;
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 21px;
+  color: #2e2e2e;
+}
+.teams-vector {
+  position: absolute;
+  left: 1001px;
+  top: 290px;
+}
+.email-vector {
+  position: absolute;
+  top: 400px;
+  right: 210px;
+}
+.name-hint {
+  position: absolute;
+  top: 178px;
+  left: 151px;
+}
+.forms-logo {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 85px;
+  top: 1197px;
+  left: auto;
+}
+.next-button {
+  width: 176px;
+  height: 60px;
+  position: absolute;
+  top: 1026px;
+  left: 1223px;
+  background: #62a1eb;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 60px;
+  text-align: center;
+  color: #ffffff;
+}
